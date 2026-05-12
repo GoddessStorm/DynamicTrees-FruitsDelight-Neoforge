@@ -32,7 +32,7 @@ credits='''${mod_credits}'''
 [[dependencies.${mod_id}]]
     modId="dynamictrees"
     type="required"
-    versionRange="[1.5.0-BETA5,)"
+    versionRange="[1.7.0,)"
     ordering="AFTER"
     side="BOTH"
 

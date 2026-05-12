@@ -1,4 +1,4 @@
-package dttemplate;
+package net.goddessstorm.dtfruitsdelight;
 
 import com.dtteam.dynamictrees.block.fruit.Fruit;
 import com.dtteam.dynamictrees.block.leaves.LeavesProperties;
@@ -8,19 +8,18 @@ import com.dtteam.dynamictrees.data.GatherDataHelper;
 import com.dtteam.dynamictrees.registry.NeoForgeRegistryHandler;
 import com.dtteam.dynamictrees.tree.family.Family;
 import com.dtteam.dynamictrees.tree.species.Species;
-import com.dtteam.dynamictrees.api.registry.RegistryHandler;
 //import com.dtteam.dynamictreesplus.block.mushroom.CapProperties;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 
-@Mod(DynamicTreesTemplate.MOD_ID)
-public final class DynamicTreesTemplate {
+@Mod(dtfruitsdelight.MOD_ID)
+public final class dtfruitsdelight {
 
-    public static final String MOD_ID = "dttemplate";
+    public static final String MOD_ID = "dtfruitsdelight";
 
-    public DynamicTreesTemplate(IEventBus eventBus, ModContainer container) {
+    public dtfruitsdelight(IEventBus eventBus, ModContainer container) {
         eventBus.addListener(this::gatherData);
 
         NeoForgeRegistryHandler.setup(MOD_ID, eventBus);

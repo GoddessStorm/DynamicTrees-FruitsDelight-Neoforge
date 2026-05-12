@@ -82,7 +82,8 @@ dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
 
     //DynamicTrees
-    implementation "curse.maven:dynamictrees-252818:6606940"
+    implementation "curse.maven:dynamictrees-252818:7661136"
+    implementation "curse.maven:dynamic-trees-addon-lib-1404692:7556695"
     //implementation "curse.maven:dynamictreesplus-478155:6593943"
 
     //DynmaicTrees Tools/Utilities
