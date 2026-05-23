@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "age=0": { "model": "fruitsdelight:block/durian_flowers" },
+        "age=1": { "model": "fruitsdelight:block/durian_small" },
+        "age=2": { "model": "dtfruitsdelight:block/durian_fruits" }
+    }
+}

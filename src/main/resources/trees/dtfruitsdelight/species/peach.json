@@ -1,0 +1,35 @@
+{
+  "family": "jungle",
+  "tapering": 0.3,
+  "signal_energy": 12.0,
+  "up_probability": 2,
+  "lowest_branch_height": 2,
+  "growth_rate": 0.8,
+  "leaves_properties": "dtfruitsdelight:peach",
+  "generate_seed": true,
+  "generate_sapling": true,
+  "environment_factors" : {
+
+  },
+  "seasonal_fruiting_offset": 3,
+  "inherit_fruiting_offset_to_fruits": true,
+  "perfect_biomes": { "tag": "#fruitsdelight:plants/peach_biomes" },
+  "primitive_saplings": [
+    { "sapling_block": "fruitsdelight:peach_sapling" },
+    {
+      "sapling_item": "fruitsdelight:peach",
+      "can_craft_seed_to_sapling": false
+    }
+  ],
+  "fruits": [
+    "dtfruitsdelight:peach"
+  ],
+  "features": [
+    {
+      "name": "fruit",
+      "properties": {
+        "fruit": "dtfruitsdelight:peach"
+      }
+    }
+  ]
+}

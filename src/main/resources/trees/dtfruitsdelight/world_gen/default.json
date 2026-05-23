@@ -1,0 +1,203 @@
+[
+  {
+    "select": {
+      "tag": "#fruitsdelight:plants/pear_biomes"
+    },
+    "apply": {
+      "species": {
+        "method": "SPLICE_BEFORE",
+        "random": {
+          "...": 40,
+          "dtfruitsdelight:pear": 1
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "tag": "#fruitsdelight:plants/hawberry_biomes"
+    },
+    "apply": {
+      "species": {
+        "method": "SPLICE_BEFORE",
+        "random": {
+          "...": 90,
+          "dtfruitsdelight:hawberry": 1
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "tag": "#fruitsdelight:plants/persimmon_biomes"
+    },
+    "apply": {
+      "species": {
+        "method": "SPLICE_BEFORE",
+        "random": {
+          "...": 40,
+          "dtfruitsdelight:persimmon": 1
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "tag": "#fruitsdelight:plants/lychee_biomes"
+    },
+    "apply": {
+      "species": {
+        "method": "SPLICE_BEFORE",
+        "random": {
+          "...": 80,
+          "dtfruitsdelight:lychee": 1
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "tag": "#fruitsdelight:plants/peach_biomes"
+    },
+    "apply": {
+      "species": {
+        "method": "SPLICE_BEFORE",
+        "random": {
+          "...": 40,
+          "dtfruitsdelight:peach": 1
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "tag": "#fruitsdelight:plants/orange_biomes"
+    },
+    "apply": {
+      "species": {
+        "method": "SPLICE_BEFORE",
+        "random": {
+          "...": 70,
+          "dtfruitsdelight:orange": 1
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "tag": "#fruitsdelight:plants/mangosteen_biomes"
+    },
+    "apply": {
+      "species": {
+        "method": "SPLICE_BEFORE",
+        "random": {
+          "...": 100,
+          "dtfruitsdelight:mangosteen": 1
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "tag": "#fruitsdelight:plants/mango_biomes"
+    },
+    "apply": {
+      "species": {
+        "method": "SPLICE_BEFORE",
+        "random": {
+          "...": 180,
+          "dtfruitsdelight:mango": 1
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "tag": "#fruitsdelight:plants/durian_biomes"
+    },
+    "apply": {
+      "species": {
+        "method": "SPLICE_BEFORE",
+        "random": {
+          "...": 240,
+          "dtfruitsdelight:durian": 1
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "tag": "#fruitsdelight:plants/bayberry_biomes"
+    },
+    "apply": {
+      "species": {
+        "method": "SPLICE_BEFORE",
+        "random": {
+          "...": 70,
+          "dtfruitsdelight:bayberry": 1
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "tag": "#fruitsdelight:plants/kiwi_biomes"
+    },
+    "apply": {
+      "species": {
+        "method": "SPLICE_BEFORE",
+        "random": {
+          "...": 90,
+          "dtfruitsdelight:kiwi": 1
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "tag": "#fruitsdelight:plants/fig_biomes"
+    },
+    "apply": {
+      "species": {
+        "method": "SPLICE_BEFORE",
+        "random": {
+          "...": 60,
+          "dtfruitsdelight:fig": 1
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "tag": "#fruitsdelight:plants/apple_biomes"
+    },
+    "apply": {
+      "species": {
+        "method": "SPLICE_BEFORE",
+        "random": {
+          "...": 40,
+          "apple_oak": 1
+        }
+      }
+    }
+  },
+
+
+
+  {
+    "_comment": "remove apple trees from plains",
+    "select": {
+      "name": "minecraft:.*",
+      "tag": "#forge:is_plains"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "oak": 25
+        }
+      },
+      "density": 0,
+      "chance": 0.03
+    }
+  }
+]

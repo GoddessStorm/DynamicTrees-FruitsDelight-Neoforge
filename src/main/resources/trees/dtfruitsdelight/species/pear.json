@@ -1,0 +1,36 @@
+{
+  "family": "birch",
+  "tapering": 0.4,
+  "signal_energy": 10.0,
+  "up_probability": 1,
+  "lowest_branch_height": 4,
+  "growth_rate": 0.7,
+  "leaves_properties": "dtfruitsdelight:pear",
+  "generate_seed": true,
+  "generate_sapling": true,
+  "environment_factors" : {
+
+  },
+  "seasonal_fruiting_offset": 3,
+  "inherit_fruiting_offset_to_fruits": true,
+  "perfect_biomes": { "tag": "#fruitsdelight:plants/pear_biomes" },
+  "primitive_saplings": [
+    { "sapling_block": "fruitsdelight:pear_sapling" },
+    {
+      "sapling_item": "fruitsdelight:pear",
+      "can_craft_seed_to_sapling": false
+    }
+  ],
+  "fruits": [
+    "dtfruitsdelight:pear"
+  ],
+  "features": [
+    {
+      "name": "fruit",
+      "properties": {
+        "fruit": "dtfruitsdelight:pear",
+        "fruiting_radius": 6
+      }
+    }
+  ]
+}
